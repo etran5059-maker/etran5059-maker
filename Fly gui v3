@@ -49,7 +49,7 @@ onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
 onof.Text = "fly"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
-onof.TextSize = 20.000
+onof.TextSize = 30.000
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
@@ -136,7 +136,7 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
- Title = "CẢM ƠN BẠN ĐÃ SỬ DỤNG SCRIPT CỦA TÔI";
+ Title = "Fly gui v3 by khang";
 	Text = "BY KHANG";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
