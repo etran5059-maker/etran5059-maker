@@ -29,7 +29,7 @@ up.Size = UDim2.new(0, 44, 0, 28)
 up.Font = Enum.Font.SourceSans
 up.Text = "UP"
 up.TextColor3 = Color3.fromRGB(0, 0, 0)
-up.TextSize = 14.000
+up.TextSize = 20.000
 
 down.Name = "down"
 down.Parent = Frame
@@ -39,7 +39,7 @@ down.Size = UDim2.new(0, 44, 0, 28)
 down.Font = Enum.Font.SourceSans
 down.Text = "DOWN"
 down.TextColor3 = Color3.fromRGB(0, 0, 0)
-down.TextSize = 14.000
+down.TextSize = 20.000
 
 onof.Name = "onof"
 onof.Parent = Frame
@@ -49,7 +49,7 @@ onof.Size = UDim2.new(0, 56, 0, 28)
 onof.Font = Enum.Font.SourceSans
 onof.Text = "fly"
 onof.TextColor3 = Color3.fromRGB(0, 0, 0)
-onof.TextSize = 14.000
+onof.TextSize = 20.000
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(242, 60, 255)
@@ -59,7 +59,7 @@ TextLabel.Font = Enum.Font.SourceSans
 TextLabel.Text = "FLY GUI V3 cracked by khang"
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
+TextLabel.TextSize = 20.000
 TextLabel.TextWrapped = true
 
 plus.Name = "plus"
@@ -71,7 +71,7 @@ plus.Font = Enum.Font.SourceSans
 plus.Text = "+"
 plus.TextColor3 = Color3.fromRGB(0, 0, 0)
 plus.TextScaled = true
-plus.TextSize = 14.000
+plus.TextSize = 20.000
 plus.TextWrapped = true
 
 speed.Name = "speed"
@@ -83,7 +83,7 @@ speed.Font = Enum.Font.SourceSans
 speed.Text = "1"
 speed.TextColor3 = Color3.fromRGB(0, 0, 0)
 speed.TextScaled = true
-speed.TextSize = 14.000
+speed.TextSize = 20.000
 speed.TextWrapped = true
 
 mine.Name = "mine"
@@ -95,7 +95,7 @@ mine.Font = Enum.Font.SourceSans
 mine.Text = "-"
 mine.TextColor3 = Color3.fromRGB(0, 0, 0)
 mine.TextScaled = true
-mine.TextSize = 14.000
+mine.TextSize = 20.000
 mine.TextWrapped = true
 
 closebutton.Name = "Close"
@@ -104,7 +104,7 @@ closebutton.BackgroundColor3 = Color3.fromRGB(225, 25, 0)
 closebutton.Font = "SourceSans"
 closebutton.Size = UDim2.new(0, 45, 0, 28)
 closebutton.Text = "X"
-closebutton.TextSize = 30
+closebutton.TextSize = 50
 closebutton.Position =  UDim2.new(0, 0, -1, 27)
 
 mini.Name = "minimize"
@@ -113,7 +113,7 @@ mini.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini.Font = "SourceSans"
 mini.Size = UDim2.new(0, 45, 0, 28)
 mini.Text = "-"
-mini.TextSize = 40
+mini.TextSize = 50
 mini.Position = UDim2.new(0, 44, -1, 27)
 
 mini2.Name = "minimize2"
@@ -122,7 +122,7 @@ mini2.BackgroundColor3 = Color3.fromRGB(192, 150, 230)
 mini2.Font = "SourceSans"
 mini2.Size = UDim2.new(0, 45, 0, 28)
 mini2.Text = "+"
-mini2.TextSize = 40
+mini2.TextSize = 50
 mini2.Position = UDim2.new(0, 44, -1, 57)
 mini2.Visible = false
 
@@ -136,7 +136,7 @@ local hum = chr and chr:FindFirstChildWhichIsA("Humanoid")
 nowe = false
 
 game:GetService("StarterGui"):SetCore("SendNotification", { 
- Title = "FLY CRACKED";
+ Title = "CẢM ƠN BẠN ĐÃ SỬ DỤNG SCRIPT CỦA TÔI";
 	Text = "BY KHANG";
 	Icon = "rbxthumb://type=Asset&id=5107182114&w=150&h=150"})
 Duration = 5;
